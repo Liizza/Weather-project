@@ -1,0 +1,117 @@
+body {
+  margin: 0 auto;
+  display: block;
+}
+div.container {
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgb(0, 0, 73);
+  width: 60%;
+}
+.weather {
+  text-align: center;
+}
+.container h1 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+}
+.container h3 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+.container form {
+  margin: 0 auto;
+  display: block;
+  padding: 10px;
+}
+form #enterCity {
+  max-width: 400px;
+  border-radius: 10px;
+  border-color: rgb(57, 57, 124);
+  position: relative;
+}
+form #search {
+  background-color: rgb(57, 57, 124);
+  border: 2px solid rgb(57, 57, 124);
+  border-radius: 10px;
+  color: white;
+  position: relative;
+  left: auto;
+}
+form #search:hover {
+  background-color: rgba(57, 57, 124, 0.3);
+  color: rgb(57, 57, 124);
+  border-color: rgba(57, 57, 124, 0.3);
+}
+
+.mainConditions {
+  font-size: 25px;
+  font-weight: 500;
+}
+.otherConditions {
+  font-size: 20px;
+}
+.weather h2 {
+  font-size: 40px;
+  font-weight: 700;
+  display: block;
+}
+#celsius,
+#fahrenheit {
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0px;
+  margin: 0px;
+  color: rgb(97, 97, 233);
+}
+#celsius:hover,
+#fahrenheit:hover {
+  text-decoration: underline;
+}
+.container .card {
+  border-color: rgba(57, 57, 124, 0.4);
+  margin-right: 0px;
+  max-width: 400px;
+  transition: all 200ms ease-in-out;
+}
+.container .card-body {
+  padding: 5px;
+  padding-top: 10px;
+}
+.container .card-title {
+  margin-bottom: 0px;
+  text-align: center;
+}
+.container .card:hover {
+  background-color: rgba(57, 57, 124, 0.1);
+  cursor: pointer;
+}
+.container .forecast5days {
+  max-width: 400px;
+  margin-right: 0px;
+}
+img {
+  margin: 0 auto;
+  display: block;
+  max-width: 150px;
+}
+.container .emoji {
+  font-size: 40px;
+}
+#currentLocation {
+  display: block;
+  margin: 0px auto;
+  padding: 0px 20px;
+  border-radius: 10px;
+  color: rgb(0, 0, 73);
+  border: 1px solid rgba(57, 57, 124, 0.4);
+  background-color: transparent;
+}
+#currentLocation:hover {
+  background-color: rgba(57, 57, 124, 0.1);
+}
