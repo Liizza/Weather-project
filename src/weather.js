@@ -76,6 +76,10 @@ let fahrenheit = document.querySelector("#fahrenheit");
 function showF(event) {
   event.preventDefault();
   let currentTemp = document.querySelector("#currentTemp");
-  currentTemp.innerHTML = "63";
+  let currentTempF=(currentTemp.textContent)*9/5+32;
+  currentTemp.innerHTML =Math.round(currentTempF);
 }
 fahrenheit.addEventListener("click", showF);
+
+  
+  

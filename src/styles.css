@@ -115,3 +115,7 @@ img {
 #currentLocation:hover {
   background-color: rgba(57, 57, 124, 0.1);
 }
+.container #gitHub{
+  display:block;
+  text-align: center;
+}
